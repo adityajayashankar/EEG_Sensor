@@ -14,3 +14,16 @@ This sensor will support accurate brain signal acquisition and seamless integrat
 | R1                | 10 KΩ              |
 | Input Impedance (Zin)  | 10 MΩ        |
 | Output Impedance (Zout) | 100 Ω       |
+
+
+### Bandpass Filter Design Parameters
+
+| **Parameter**           | **Designed Value**        |
+|-------------------------|---------------------------|
+| Lower Cutoff Frequency  | 1 Hz                      |
+| Upper Cutoff Frequency  | 100 Hz                    |
+| Bandwidth               | 1 – 100 Hz                |
+| Quality Factor          | 100                       |
+| Gain                    | 37 dB                     |
+| Filter Order            | 2                         |
+| Type                    | Active Bandpass Filter     |
