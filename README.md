@@ -27,3 +27,15 @@ This sensor will support accurate brain signal acquisition and seamless integrat
 | Gain                    | 37 dB                     |
 | Filter Order            | 2                         |
 | Type                    | Active Bandpass Filter     |
+
+
+### Notch Filter Design Parameters
+
+| **Parameter**         | **Designed Value**            |
+|-----------------------|-------------------------------|
+| Center Frequency (fc) | 50 Hz                         |
+| Gain Bandwidth        | 1 – 100 Hz                    |
+| Quality Factor (Q)    | 100                           |
+| Capacitance (C)       | 500 pF                        |
+| Filter Type           | Two op-amp notch filter design |
+
